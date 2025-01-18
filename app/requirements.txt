@@ -1,0 +1,3 @@
+aima==2024.9.28
+numpy
+matplotlib

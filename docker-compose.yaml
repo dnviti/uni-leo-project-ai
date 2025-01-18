@@ -1,0 +1,7 @@
+services:
+  treasure-maze:
+    image: python:3.10.16
+    container_name: treasure-maze
+    volumes:
+      - ./app:/app
+    command: ["sleep", "infinity"]

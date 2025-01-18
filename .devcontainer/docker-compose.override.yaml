@@ -1,0 +1,5 @@
+services:
+  treasure-maze:
+    command: ["sleep", "infinity"]
+    volumes:
+      - ../app:/app
