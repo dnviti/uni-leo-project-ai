@@ -1,8 +1,7 @@
 {
   "name": "Treasure Maze Dev Container",
   "dockerComposeFile": [
-    "../docker-compose.yml",
-    "docker-compose.override.yml"
+    "../docker-compose.yaml",
   ],
   "service": "treasure-maze",
   "workspaceFolder": "/app",
