@@ -11,7 +11,8 @@
   "extensions": [
     "ms-python.python",
     "ms-python.vscode-pylance",
-    "ms-toolsai.jupyter-renderers"
+    "ms-toolsai.jupyter-renderers",
+    "ms-toolsai.jupyter"
   ],
-  "postCreateCommand": "python -m venv .venv && chmod +x .venv/bin/activate && . .venv/bin/activate && pip install -r requirements.txt || true"
+  "postCreateCommand": "apt update && apt install libgl1-mesa-glx -y && python -m venv .venv && chmod +x .venv/bin/activate && . .venv/bin/activate && pip install -r requirements.txt || true"
 }

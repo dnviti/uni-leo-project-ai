@@ -5,3 +5,9 @@ services:
     volumes:
       - ./app:/app
     command: ["sleep", "infinity"]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    runtime: nvidia
