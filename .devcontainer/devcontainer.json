@@ -10,7 +10,8 @@
   },
   "extensions": [
     "ms-python.python",
-    "ms-python.vscode-pylance"
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter-renderers"
   ],
   "postCreateCommand": "pip install -r requirements.txt || true"
 }
